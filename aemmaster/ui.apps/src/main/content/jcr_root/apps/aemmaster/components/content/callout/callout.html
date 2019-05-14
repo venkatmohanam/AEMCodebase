@@ -1,0 +1,11 @@
+<div  class="col" data-sly-use.calloutObj="apps.aemmaster.components.content.callout.Callout">
+    <h2>${calloutObj.title}</h2>
+    <p>${calloutObj.description}</p>
+    <sly data-sly-test="${calloutObj.pagepath}">
+    	<p><a href="${calloutObj.pagepath}.html" class="btn btn-success">${calloutObj.linktext}</a></p>
+    </sly>
+    <sly data-sly-test="${!calloutObj.pagepath && calloutObj.externallink}">
+    	<p><a href="${calloutObj.externallink}" target="_blank" class="btn btn-success">${calloutObj.linktext}</a></p>
+    </sly>
+
+</div>

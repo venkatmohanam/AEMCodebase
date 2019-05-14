@@ -1,0 +1,467 @@
+!SESSION 2019-05-14 11:45:31.247 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_141
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data D:\aem-git-workspace -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-05-14 11:47:31.310
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\329511'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.cp.vaultclipse.svc.VaultSvc 1 0 2019-05-14 11:54:10.072
+!MESSAGE Current version: 2.4.40
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:32.853
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\filter.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:32.894
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\jcr_root\apps\aemmaster\clientlibs\clientlib-base\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:32.905
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\jcr_root\apps\aemmaster\clientlibs\clientlib-base\css.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:32.913
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\jcr_root\apps\aemmaster\clientlibs\clientlib-base\js.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:32.921
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\jcr_root\apps\aemmaster\clientlibs\clientlib-base is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:33.024
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\jcr_root\apps\aemmaster\clientlibs is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:33.031
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\jcr_root\apps\aemmaster is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:33.046
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\jcr_root\apps is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:33.054
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\jcr_root is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:33.060
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\META-INF\vault\config.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:33.065
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\META-INF\vault\filter.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:33.074
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\META-INF\vault is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:33.092
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050\META-INF is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:54:33.104
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815050050 is not deleted
+
+!ENTRY com.cp.vaultclipse.ui.wizard.ExportWizard 1 0 2019-05-14 11:54:33.106
+!MESSAGE VaultClipse Export /apps/aemmaster/clientlibs Completed Successfully
+
+!ENTRY com.cp.vaultclipse.svc.VaultSvc 1 0 2019-05-14 11:55:03.207
+!MESSAGE Current version: 2.4.40
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.326
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-authoring\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.336
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-authoring\css.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.348
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-authoring\js.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.370
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-authoring is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.376
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-base\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.387
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-base\css.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.428
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-base\js.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.436
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-base is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.443
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.453
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\css\bootstrap.min.css is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.459
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\css\foundation_clientlibs_dotcom.css is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.466
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\css\grid.less is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.472
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\css\headernav.css is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.480
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\css is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.488
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\css.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.498
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.eot is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.504
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.eot.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.514
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.eot.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.520
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.svg is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.538
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.svg.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.549
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.svg.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.555
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.ttf is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.561
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.ttf.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.572
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.ttf.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.577
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.woff is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.584
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.woff.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.595
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.woff.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.601
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.woff2 is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.608
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.woff2.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.617
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts\glyphicons-halflings-regular.woff2.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.625
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\fonts is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.634
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\bootstrap.min.js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.640
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\bootstrap.min.js.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.650
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\bootstrap.min.js.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.655
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\foundation_clientlibs_dotcom.js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.662
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\foundation_clientlibs_dotcom.js.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.671
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\foundation_clientlibs_dotcom.js.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.677
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\jquery.min.js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.681
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\jquery.min.js.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.687
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\jquery.min.js.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.691
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\login.js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.697
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\login.js.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.703
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js\login.js.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.707
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.712
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master\js.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.717
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-master is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.722
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-registerform\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.729
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-registerform\js\formpost.js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.735
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-registerform\js\formpost.js.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.741
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-registerform\js\formpost.js.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.748
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-registerform\js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.754
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-registerform\js.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.762
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-registerform\js.txt.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.770
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-registerform\js.txt.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.778
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlib-registerform is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.782
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlibs-dialogevent\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.788
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlibs-dialogevent\js\listeners.js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.792
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlibs-dialogevent\js\listeners.js.dir\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.797
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlibs-dialogevent\js\listeners.js.dir is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.803
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlibs-dialogevent\js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.808
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlibs-dialogevent\js.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.813
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs\clientlibs-dialogevent is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.818
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\clientlibs is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.824
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\breadcrumb\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.829
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\breadcrumb\clientlib\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.835
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\breadcrumb\clientlib\css.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.839
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\breadcrumb\clientlib\less\breadcrumb.less is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.845
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\breadcrumb\clientlib\less is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.850
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\breadcrumb\clientlib is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.855
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\breadcrumb is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.948
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\helloworld\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.953
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\helloworld\helloworld.html is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.958
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\helloworld\_cq_dialog\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.964
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\helloworld\_cq_dialog is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.972
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\helloworld is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.978
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\image\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.983
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\image\_cq_editConfig.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.988
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\image is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.992
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\languagenavigation\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:48.999
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\languagenavigation is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.003
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\list\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.009
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\list\_cq_editConfig.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.014
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\list is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.034
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\navigation\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.040
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\navigation is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.073
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\search\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.080
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\search is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.084
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\sharing\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.090
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\sharing is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.120
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\text\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.126
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\text is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.167
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\title\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.172
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content\title is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.188
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\content is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.193
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\button\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.198
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\button is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.201
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\container\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.206
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\container\new\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.212
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\container\new is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.216
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\container is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.220
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\hidden\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.225
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\hidden is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.229
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\options\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.234
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\options is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.238
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\text\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.245
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form\text is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.250
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\form is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.256
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\structure\page\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.260
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\structure\page\customfooterlibs.html is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.264
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\structure\page\customheaderlibs.html is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.269
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\structure\page is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.279
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components\structure is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.283
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\components is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.289
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\config\org.apache.sling.commons.log.LogManager.factory.config-aemmaster.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.294
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\config is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.300
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\config.author\com.day.cq.wcm.mobile.core.impl.MobileEmulatorProvider-aemmaster.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.304
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\config.author is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.309
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\i18n\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.313
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\i18n\fr.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.318
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\i18n is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.328
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\templates\page-content\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.333
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\templates\page-content is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.337
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\templates\page-home\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.342
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\templates\page-home is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.350
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\templates is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.353
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\tests\.content.xml is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.360
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\tests\js.txt is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.365
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\tests\SampleTests.js is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.370
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster\tests is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.375
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps\aemmaster is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.382
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root\apps is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.387
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176\jcr_root is not deleted
+
+!ENTRY com.cp.vaultclipse.helpers.FileHelper 2 0 2019-05-14 11:55:49.396
+!MESSAGE File D:\AEM-files\Temp\vaultclipse\1557815103176 is not deleted
+
+!ENTRY com.cp.vaultclipse.ui.wizard.ExportWizard 1 0 2019-05-14 11:55:49.399
+!MESSAGE VaultClipse Export /apps/aemmaster Completed Successfully

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/fixedcolumns">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <websiteEntries
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                        composite="{Boolean}true"
+                        eaem-show-on-collapse="EAEM.showProductName"
+                        fieldLabel="Website Entries">
+                        <field
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            name="./websiteentries">
+                            <items jcr:primaryType="nt:unstructured">
+                                <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <websiteName
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldDescription="Website Name"
+                                            fieldLabel="Website Name"
+                                            name="./websiteName"/>
+                                        <defaultLanguage
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldDescription="Default Language"
+                                            fieldLabel="Default Language"
+                                            name="./defaultLanguage"/>
+                                        <pagePath
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldDescription="Select Path"
+                                            fieldLabel="Page Path"
+                                            name="./pagePath"/>
+                                        <thumbnailImage
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="cq/gui/components/authoring/dialog/fileupload"
+                                            autoStart="{Boolean}false"
+                                            class="cq-droptarget"
+                                            fieldLabel="Image "
+                                            fileNameParameter="./thumbnailImage"
+                                            fileReferenceParameter="./thumbnailImageReference"
+                                            mimeTypes="[image]"
+                                            multiple="{Boolean}false"
+                                            name="./image/file"
+                                            title="Upload Thumbnail Image"
+                                            uploadUrl="${suffix.path}"
+                                            useHTML5="{Boolean}true"/>
+                                        <showMultiLingualOptions
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                            fieldDescription="Controls whether Multiple language website links to be displayed"
+                                            name="./showMultiLingualOptions"
+                                            text="Display Multi Lingual Options"
+                                            value="true"/>
+                                        <language1
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldDescription="Enter First Language Code"
+                                            fieldLabel="Enter First Language Code"
+                                            name="./language1"/>
+                                        <pagePath1
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldDescription="Select Page Path for First Language"
+                                            fieldLabel="Select Page Path for First Language"
+                                            name="./pagePath1"/>
+                                        <language2
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldDescription="Enter Second Language Code"
+                                            fieldLabel="Enter Second Language Code"
+                                            name="./language2"/>
+                                        <pagePath2
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            fieldDescription="Select Page Path for Second Language"
+                                            fieldLabel="Select Page Path for Second Language"
+                                            name="./pagePath2"/>
+                                    </items>
+                                </column>
+                            </items>
+                        </field>
+                    </websiteEntries>
+                    <regionName
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldDescription="Enter Region Name."
+                        fieldLabel="Region Name"
+                        name="./regionName"/>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

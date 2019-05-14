@@ -1,0 +1,42 @@
+<!-- Footer -->
+<footer class="page-footer font-small bg-secondary text-light">
+
+    <!-- Footer Links -->
+    <div class="container-fluid text-center text-md-left">
+
+      <!-- Grid row-->
+      <div class="row text-center d-flex justify-content-center pt-4 mb-3" data-sly-use.multiItems="com.cts.aem.training.core.FooterLinks">
+
+        <!-- Grid column -->
+    	<sly data-sly-list.head="${multiItems.footerlinks.listChildren}">
+        	<div class="col-md-2">
+                <p>${head.tiletag} </p>
+                <a class="text-white-50 font-weight-bold" href="${head.linkpath}" target="_blank" > ${head.linktext}</a>
+            </div>
+    	</sly>	
+        <!-- Grid column -->
+      </div>
+      <!-- Grid row-->
+      <hr class="rgba-white-light bg-info" style="margin: 0 15%;">
+
+      <!-- Grid row-->
+      <div class="row d-flex text-center justify-content-center">
+
+        <!-- Grid column -->
+        <div class="col-md-8 col-12">
+    <p style="line-height: 1.5rem" class="font-weight-light">${ properties.description }</p>
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+      <hr class="rgba-white-light bg-info" style="margin: 0 15%;">
+    </div>
+    <!-- Footer Links -->
+    <!-- Copyright -->
+    <div class="footer-copyright small text-center py-3">&copy; ${ properties.copyright } | ${ 'India' @i18n } | ${ 'MiddleEast' @i18n }
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->

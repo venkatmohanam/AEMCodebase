@@ -1,0 +1,64 @@
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"><img src="/content/dam/aemmaster/aemlearnlogo.png" alt="mylogo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto" data-sly-use.topnavObj="com.cts.aem.training.core.Navigation">
+      <li class="nav-item active" data-sly-repeat="${topnavObj.items}">
+        <a class="nav-link" href="${item.path}.html">${item.title} <span class="sr-only">(current)</span></a>
+      </li>
+    </ul>
+
+    <ul class="navbar-nav mr-auto">
+    	<li>
+        	<sly data-sly-test="${currentSession.userID =='anonymous'|| currentSession.userID =='admin'}">
+        		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">Login</button>
+            </sly>
+            <sly data-sly-test="${currentSession.userID != 'anonymous' && currentSession.userID !='admin'}">
+            	<span class="h6 small text-primary">Welcome ${currentSession.userID} ...</span>
+           	 	<a class="cq-cc-profile-not-anonymous logout-link" href="/system/sling/logout?resource=/content/AEMMaster/en/aemworld.html">Logout</a>
+            </sly>
+         </li>
+     </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+
+
+
+</nav>
+<!---START OF COGNIZANT MODULE--->
+<div class=" bg-gray-light3">
+    <div class="row primary-menu ww-menu align-right show-for-large">
+        <div class="columns medium-12 large-12">
+            <ul data-dropdown-menu="nacldt-dropdown-menu" data-options="disableHover:true;clickOpen:true" class="menu slide-in-right align-right " role="menubar" data-is-click="false">
+                <li class="ww-drpdwn is-dropdown-submenu-parent opens-left is-active" style="display: block;" role="menuitem" aria-haspopup="true" aria-label="Worldwide" data-is-click="true">
+                    <a href="#" id="worldwidemenu" title="Worldwide" data-dropdown="drop1" aria-control="drop1" class="ww-nav text-black small" aria-hidden="true">Worldwide</a>
+                    <ul id="drop1" data-dropdown-content="" data-attribute="worldwideTag" tabindex="-1" aria-hidden="true" aria-autoclose="true" class="f-dropdown no-border ml0 bg-white box-shadow submenu is-dropdown-submenu first-sub vertical " data-submenu="" role="menubar" style="">
+                        <div class="row" data-countries-list="listallregions">
+                        </div>    
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+<!---END OF COGNIZANT MODULE--->
+
+<div data-sly-resource="${'timedisplay' @ resourceType='aemmaster/components/content/timedisplay'}"></div>
+
+<div data-sly-include="${ @path=timedisplay, resourceType='aemmaster/components/content/timedisplay'}"></div>
+
+<!-- The Login Modal -->
+<div class="modal" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+		<div data-sly-resource="${'loginmodal' @ resourceType='aemmaster/components/content/login'}"></div>
+    </div>
+  </div>
+</div>

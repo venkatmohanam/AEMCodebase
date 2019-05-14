@@ -1,0 +1,27 @@
+<hr>
+<div align="center">
+<h3>User Registration:</h3>
+<div id="results-display"></div>
+<form id="registerform">
+  First name:<br>
+  <input type="text" id="firstname" value="">
+  <br>
+  Last name:<br>
+  <input type="text" id="lastname" value="">
+  <br>
+  Email:<br>
+  <input type="text" id="emailaddress" value=""> 
+  <br>
+  Phone number:<br>
+  <input type="text" id="phonenumber" value="">
+  <br>
+  username:<br>
+  <input type="text" id="username" value="">
+  <br>
+  password:<br>
+  <input type="password" id="password" value="">
+<br><br>
+  <input type="button" id="submitData" value="Signup">
+</form>
+</div>
+<sly data-sly-use.clientLib="/libs/granite/sightly/templates/clientlib.html"  data-sly-call="${clientlib.js @ categories='aemmaster.register'}"/>
