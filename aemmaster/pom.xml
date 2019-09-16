@@ -405,6 +405,7 @@
                                     </goals>
                                     <configuration>
                                         <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
+										<useProxy>false</useProxy>
                                     </configuration>
                                 </execution>
                             </executions>

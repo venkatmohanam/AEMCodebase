@@ -1,0 +1,35 @@
+2019-05-30 11:19:32,795 [Worker-5] ERROR o.e.m.jdt.internal.BuildPathManager - Could not lookup required component
+org.eclipse.core.runtime.CoreException: Could not lookup required component
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1281) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.getLocalRepository(MavenImpl.java:426) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.jdt.internal.BuildPathManager.setupVariables(BuildPathManager.java:595) ~[org.eclipse.m2e.jdt_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.m2e.jdt.internal.MavenClasspathVariableInitializer.initialize(MavenClasspathVariableInitializer.java:30) [org.eclipse.m2e.jdt_1.5.1.20150109-1820.jar:na]
+	at org.eclipse.jdt.core.JavaCore.getClasspathVariable(JavaCore.java:3423) [org.eclipse.jdt.core_3.11.2.v20160128-0629.jar:na]
+	at org.eclipse.jdt.internal.core.JavaModelManager.getResolvedVariablePath(JavaModelManager.java:2551) [org.eclipse.jdt.core_3.11.2.v20160128-0629.jar:na]
+	at org.eclipse.jdt.internal.core.JavaModelManager.resolveVariableEntry(JavaModelManager.java:2471) [org.eclipse.jdt.core_3.11.2.v20160128-0629.jar:na]
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2664) [org.eclipse.jdt.core_3.11.2.v20160128-0629.jar:na]
+	at org.eclipse.jdt.internal.core.JavaProject.resolveClasspath(JavaProject.java:2857) [org.eclipse.jdt.core_3.11.2.v20160128-0629.jar:na]
+	at org.eclipse.jdt.internal.core.JavaProject.getResolvedClasspath(JavaProject.java:1962) [org.eclipse.jdt.core_3.11.2.v20160128-0629.jar:na]
+	at org.eclipse.jdt.internal.core.JavaProject.isOnClasspath(JavaProject.java:2240) [org.eclipse.jdt.core_3.11.2.v20160128-0629.jar:na]
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.getOverlay(BuildpathIndicatorLabelDecorator.java:48) [org.eclipse.jdt.ui_3.11.2.v20151123-1510.jar:na]
+	at org.eclipse.jdt.internal.ui.BuildpathIndicatorLabelDecorator.decorate(BuildpathIndicatorLabelDecorator.java:35) [org.eclipse.jdt.ui_3.11.2.v20151123-1510.jar:na]
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:273) [org.eclipse.ui.workbench_3.107.1.v20160120-2131.jar:na]
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:83) [org.eclipse.ui.workbench_3.107.1.v20160120-2131.jar:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42) [org.eclipse.equinox.common_3.7.0.v20150402-1709.jar:na]
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:367) [org.eclipse.ui.workbench_3.107.1.v20160120-2131.jar:na]
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:349) [org.eclipse.ui.workbench_3.107.1.v20160120-2131.jar:na]
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.ensureResultCached(DecorationScheduler.java:372) [org.eclipse.ui.workbench_3.107.1.v20160120-2131.jar:na]
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:332) [org.eclipse.ui.workbench_3.107.1.v20160120-2131.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.codehaus.plexus.component.repository.exception.ComponentLookupException: java.util.NoSuchElementException
+      role: org.apache.maven.repository.RepositorySystem
+  roleHint: 
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:264) ~[org.eclipse.sisu.plexus-0.0.0.M5.jar:na]
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:252) ~[org.eclipse.sisu.plexus-0.0.0.M5.jar:na]
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:246) ~[org.eclipse.sisu.plexus-0.0.0.M5.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lookup(MavenImpl.java:1279) ~[org.eclipse.m2e.core_1.5.1.20150109-1820.jar:na]
+	... 20 common frames omitted
+Caused by: java.util.NoSuchElementException: null
+	at java.util.Collections$EmptyIterator.next(Collections.java:4189) ~[na:1.8.0_141]
+	at org.codehaus.plexus.DefaultPlexusContainer.lookup(DefaultPlexusContainer.java:260) ~[org.eclipse.sisu.plexus-0.0.0.M5.jar:na]
+	... 23 common frames omitted
